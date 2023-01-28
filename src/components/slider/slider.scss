@@ -1,0 +1,11 @@
+@import "../variables.scss";
+.slider-Movies{
+    display: flex;
+    width: 95vw;
+    white-space:nowrap;
+    overflow-x: auto;
+    gap: 10px;
+    background-color: $color2;
+    padding: 5px;
+    margin: 0 auto;
+}

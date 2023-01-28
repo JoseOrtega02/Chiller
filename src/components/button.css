@@ -1,0 +1,12 @@
+button {
+  background-color: #22A39F;
+  border: none;
+  color: aliceblue;
+  padding: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #186f6d;
+}
+/*# sourceMappingURL=button.css.map */

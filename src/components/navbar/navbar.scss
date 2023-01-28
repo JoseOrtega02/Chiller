@@ -1,0 +1,21 @@
+@import "../variables.scss";
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: $color2;
+    padding: 0px 10px;
+    .navbar-buttons{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        @import "../button.scss";
+    }
+    img{
+        width:50px;
+        @media screen and (min-width:900px) {
+            width: 60px;
+        }
+    }
+}

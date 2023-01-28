@@ -1,0 +1,47 @@
+.navbar-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #434242;
+  padding: 0px 10px;
+}
+
+.navbar-container .navbar-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 10px;
+}
+
+.navbar-container .navbar-buttons button {
+  background-color: #22A39F;
+  border: none;
+  color: aliceblue;
+  padding: 5px;
+}
+
+.navbar-container .navbar-buttons button:hover {
+  cursor: pointer;
+  background-color: #186f6d;
+}
+
+.navbar-container img {
+  width: 50px;
+}
+
+@media screen and (min-width: 900px) {
+  .navbar-container img {
+    width: 60px;
+  }
+}
+/*# sourceMappingURL=navbar.css.map */

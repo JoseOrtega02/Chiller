@@ -1,0 +1,41 @@
+.movie-container {
+  background-color: #222222;
+  width: 80vw;
+  padding: 10px 0px;
+}
+
+.movie-container img {
+  width: 100%;
+}
+
+.movie-container .movie-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.movie-container .movie-buttons button {
+  background-color: #22A39F;
+  border: none;
+  color: aliceblue;
+  padding: 5px;
+}
+
+.movie-container .movie-buttons button:hover {
+  cursor: pointer;
+  background-color: #186f6d;
+}
+
+.movie-container .movie-buttons span {
+  color: white;
+}
+/*# sourceMappingURL=Movie.css.map */

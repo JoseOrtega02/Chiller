@@ -1,0 +1,20 @@
+@import "../variables.scss";
+.movie-container{
+    background-color: $color3;
+    min-width: 200px;
+    width: 80vw;
+    padding:  10px 0px;
+    img{
+        width: 100%;
+    }
+    .movie-buttons{
+        @import "../button.scss";
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        align-items:center;
+        span{
+            color: white
+        }
+    }
+}
