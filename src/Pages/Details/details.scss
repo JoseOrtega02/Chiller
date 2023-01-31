@@ -1,0 +1,33 @@
+
+.details-container{
+    p{
+        margin-top:10px;
+        padding: 5px;
+        font-size: 16px;
+    }
+.details-basic-info{
+    display: flex;
+    padding: 5px;
+    gap: 10px;
+    img{
+        width: 45%;
+    }
+    background-color: #222222;
+    .details-info-text{
+        text-align: center;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        .Rate{
+            background-color: #22A39F;
+            border-radius: 50px;
+            padding: 5px;
+            width: fit-content;
+        }
+    }
+}
+}

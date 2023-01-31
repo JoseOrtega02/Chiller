@@ -5,7 +5,7 @@ function Slider(props) {
 
   return (
     <div className="slider-container">
-        <h1>Topics</h1>
+        <h1>{props.title}</h1>
         <div className='slider-Movies'>
          {props.data.map(movie =>{
           return (<Movie data={movie}/>)

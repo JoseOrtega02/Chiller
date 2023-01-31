@@ -7,6 +7,7 @@ import Slider from './components/slider/Slider'
 import { getRequestToken } from './utils/getDataUtils'
 import {Routes,Route} from 'react-router-dom'
 import Login from './components/login/Login'
+import Details from './Pages/Details/Details'
 function App() {
     
  const handleLogin = () => {
@@ -15,12 +16,12 @@ function App() {
 
   return (
     <div className="App">
-      <button onClick={()=>handleLogin()}>Login</button>
+      <Navbar/>
       
       <Routes>
-      <Route path='/' element={<Login/>}/>
-      <Route path='/home' element={<Home/>}/>
       
+      <Route path='/' element={<Home/>}/>
+      <Route path='/details' element={<Details/>}/>
     </Routes>
     </div>
   )

@@ -3,29 +3,16 @@ import Navbar from '../navbar/Navbar'
 import Hero from '../hero/Hero'
 import Slider from '../slider/Slider'
 import { getMovies } from '../../utils/getDataUtils'
+import useMoviesDef from '../../hooks/useMoviesDef'
 function Home() {
-  const [movies,setMovies] = useState()
-  const key = import.meta.env.VITE_REACT_APP_API_KEY
-
-  useEffect(() => {
-    
-    
-    Promise.all([getMovies(key,"https://api.themoviedb.org/3/movie/popular"),getMovies(key,"https://api.themoviedb.org/3/movie/top_rated"),getMovies(key,"https://api.themoviedb.org/3/movie/upcoming")]).then(result => {
-      
-      setMovies(result)
-    })
-  
-    
-  }, [])
-  
+  const movies = useMoviesDef()
 
   return (<>
-  <Navbar/>
       <Hero/>
     {movies !== undefined ? (<>
-      {movies.map(call =>{
-        return <Slider data={call.results}/>
-      })}
+    <Slider data={movies[0].results} title="Popular"/>
+    <Slider data={movies[1].results} title="Top Rated"/>
+    <Slider data={movies[2].results} title="Upcoming"/>
     </>):(<h1>loading</h1>)}
   </>
   )
