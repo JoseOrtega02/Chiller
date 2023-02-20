@@ -12,6 +12,16 @@
   padding: 0px 10px;
 }
 
+.navbar-container #icon {
+  font-size: 32px;
+  color: #22A39F;
+}
+
+.navbar-container a {
+  color: #22A39F;
+  text-decoration: none;
+}
+
 .navbar-container .navbar-buttons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -20,7 +30,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  gap: 10px;
+  max-width: 20%;
 }
 
 .navbar-container .navbar-buttons button {
@@ -30,13 +40,18 @@
   padding: 5px;
 }
 
+.navbar-container .navbar-buttons button a {
+  color: white;
+  text-decoration: none;
+}
+
 .navbar-container .navbar-buttons button:hover {
   cursor: pointer;
   background-color: #186f6d;
 }
 
 .navbar-container img {
-  width: 50px;
+  width: 55px;
 }
 
 @media screen and (min-width: 900px) {

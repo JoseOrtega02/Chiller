@@ -1,0 +1,31 @@
+.input__div{
+    text-align: center;
+    margin-bottom:10px;
+    background-color: #222222;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    // gap: 10px;
+    justify-content:center;
+    input{
+        padding:5px;
+        border-radius:10px 0   0 10px;
+        border: none;
+    }
+    button{
+        border-radius: 0 10px 10px 0;
+        padding: 5px;
+        i{
+            font-size: 16px;
+        }
+        
+    }
+}
+.movies__div{
+   display: flex;
+   flex-direction: column;
+   gap:20px;
+   justify-content: center;
+   align-items: center;
+
+}

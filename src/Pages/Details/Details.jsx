@@ -1,6 +1,8 @@
 import {useEffect,useState} from 'react'
 import { useLocation } from 'react-router-dom'
+import Genres from '../../components/genres/Genres'
 import Slider from '../../components/slider/Slider'
+import Trailer from '../../components/Trailer/Trailer'
 import useSimilarMovies from '../../hooks/useSimilarMovies'
 import { getMovies } from '../../utils/getDataUtils'
 import "./details.scss"
@@ -31,8 +33,9 @@ function Details() {
           <h3 className="Rate">{Math.round(info.vote_average * 10) / 10}</h3>
         </div>
       </div>
-      
+      <Genres Genres={info.genre_ids} />
       <p><h3>Overview: </h3>{info.overview}</p>
+        <Trailer id={info.id}/>
       <Slider data={similars} title="Similars" />
        </>):(<h1>return</h1>)}
       

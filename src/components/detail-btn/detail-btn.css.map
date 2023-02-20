@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,MAAM,CAAA;EACF,gBAAgB,EAAE,OAAO;EACzB,MAAM,EAAC,IAAI;EACX,KAAK,EAAC,SAAS;EACf,OAAO,EAAE,GAAG;CAKf;;AATD,AAKI,MALE,CAKF,CAAC,CAAA;EACG,KAAK,EAAE,KAAK;EACZ,eAAe,EAAE,IAAI;CACxB;;AAEL,AAAA,MAAM,AAAA,MAAM,CAAA;EACR,MAAM,EAAE,OAAO;EACf,gBAAgB,EAAE,OAAO;CAC5B",
+    "sources": [
+        "detail-btn.scss"
+    ],
+    "names": [],
+    "file": "detail-btn.css"
+}

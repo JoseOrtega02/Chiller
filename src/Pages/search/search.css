@@ -1,0 +1,49 @@
+.input__div {
+  text-align: center;
+  margin-bottom: 10px;
+  background-color: #222222;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.input__div input {
+  padding: 5px;
+  border-radius: 10px 0   0 10px;
+  border: none;
+}
+
+.input__div button {
+  border-radius: 0 10px 10px 0;
+  padding: 5px;
+}
+
+.input__div button i {
+  font-size: 16px;
+}
+
+.movies__div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=search.css.map */

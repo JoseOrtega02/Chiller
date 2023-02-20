@@ -1,0 +1,28 @@
+
+.button-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #22A39F;
+    img{
+        width: 50%;
+    }
+}
+
+.side-bar-activate {
+    display: flex;
+    flex-direction: column;
+    background-color: #434242;
+    position: fixed;
+    color: #fff;
+    gap: 10px;
+    padding: 10px;
+    right: 0;
+    top: 9.5vh;
+}
+
+.side-bar {
+    position: fixed;
+
+    top: -50vh;
+}

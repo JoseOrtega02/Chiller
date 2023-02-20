@@ -1,0 +1,15 @@
+.footer__container{
+    background-color: #222222;
+    color: #FFFF;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+    a{
+        text-decoration: none;
+        color: #22A39F;
+    }
+    img{
+        width: 100px;
+    }
+}

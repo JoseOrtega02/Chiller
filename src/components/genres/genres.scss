@@ -1,0 +1,15 @@
+.genres__div{
+    display: flex;
+    gap: 20px;
+    justify-content:center;
+    text-align: center;
+    margin-top:20px;
+    width: 100%;
+    flex-wrap: wrap;
+    h3{
+        background-color: #22A39F;
+        border-radius: 15px;
+        padding: 10px;
+        color: white;
+    }
+}

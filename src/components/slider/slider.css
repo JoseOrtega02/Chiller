@@ -10,4 +10,14 @@
   padding: 5px;
   margin: 0 auto;
 }
+
+.slider-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.slider-container h1 {
+  padding-left: 10px;
+  margin-bottom: 5px;
+}
 /*# sourceMappingURL=slider.css.map */

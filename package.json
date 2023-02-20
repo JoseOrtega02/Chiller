@@ -9,10 +9,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "movie-trailer": "^3.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.8.0",
-    "sass": "^1.57.1"
+    "react-youtube": "^10.1.0",
+    "sass": "^1.57.1",
+    "universal-cookie": "^4.0.4"
   },
   "devDependencies": {
     "@types/react": "^18.0.26",

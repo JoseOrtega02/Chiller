@@ -25,7 +25,7 @@ function Hero() {
   return (
     <div className="hero__container">
         {movie !== undefined? (<>
-        
+        {console.log(movie)}
         <img src={setIMG(movie.poster_path)} alt="" />
         <h1>{movie.title}</h1>
         <div className="hero__buttons">
