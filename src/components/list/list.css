@@ -1,25 +1,4 @@
-.button-user {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: #22A39F;
-}
-
-.button-user img {
-  width: 50%;
-}
-
-.button-user:hover {
-  cursor: pointer;
-}
-
-.side-bar-activate {
+.list-container-2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -27,17 +6,28 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: #434242;
-  position: fixed;
-  color: #fff;
-  gap: 10px;
-  padding: 10px;
-  right: 0;
-  top: 9.5vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.side-bar {
-  position: fixed;
-  top: -50vh;
+.list-container-2 .movie__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-/*# sourceMappingURL=user.css.map */
+/*# sourceMappingURL=list.css.map */

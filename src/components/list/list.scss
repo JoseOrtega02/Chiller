@@ -1,0 +1,14 @@
+.list-container-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .movie__container{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}

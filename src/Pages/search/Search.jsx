@@ -25,7 +25,7 @@ function Search() {
     }
 
   return (
-    <div>
+    <div style={{minHeight:"70vh"}}>
         <div className="input__div">
             <input type="text" name="" id="" placeholder='Movie name' ref={string}/>
             <button onClick={()=>{handleSearch(string.current.value)}}><i class="fi fi-br-search"></i></button>

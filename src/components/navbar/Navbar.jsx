@@ -1,19 +1,25 @@
 import { Link } from "react-router-dom"
 import img from "../../assets/logo.png"
 import "./navbar.scss"
-import { getRequestToken } from '../../utils/getDataUtils'
+import {  getRequestToken } from '../../utils/getDataUtils'
 import { useState,useEffect } from "react"
 import Cookies from "universal-cookie"
 import User from "../user/User"
+
 const cookies = new Cookies()
 
 
 function Navbar(props) {
   
   const [sessionID,setSession] = useState(cookies.get("sessionId"))
+ 
+
+ 
+  
+
   useEffect(() => {
-    console.log(sessionID)
-    console.log("render")
+    
+    
   },[sessionID])
   
   const handleLogin = () => {
@@ -26,6 +32,7 @@ function Navbar(props) {
     
    }
    const handleLogOut = () => {
+    
     console.log("log out")
     cookies.remove("sessionId")
     setSession(undefined)
@@ -42,9 +49,9 @@ class=
       </div>
       
       <div className="navbar-buttons">
+        
         {sessionID !== undefined?(<>
         <User handleLogOut={handleLogOut} id={sessionID} />
-        {/* <button onClick={()=>handleLogOut()} >Log Out</button> */}
         </>):(<button onClick={() =>handleLogin()}>Login</button>) }
         
       </div>

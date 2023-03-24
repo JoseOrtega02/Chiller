@@ -27,4 +27,16 @@
 .movie-container .movie-buttons span {
   color: white;
 }
+
+@media screen and (min-width: 500px) {
+  .movie-container {
+    width: 50vw;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .movie-container {
+    width: 20vw;
+  }
+}
 /*# sourceMappingURL=Movie.css.map */

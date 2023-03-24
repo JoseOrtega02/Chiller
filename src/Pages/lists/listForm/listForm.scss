@@ -1,0 +1,30 @@
+.create-list-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    background-color: #434242;
+    color: #fff;
+    padding: 10px;
+    button{
+        font-size: 20px;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .form-container{
+        .form{
+            display: flex;
+            flex-direction: column;
+            gap:5px;
+            div{
+                display: flex;
+                flex-direction: column;
+            }
+            button{
+                font-size: 16px;
+                
+            }
+        }
+    }
+}

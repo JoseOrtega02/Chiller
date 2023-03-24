@@ -1,0 +1,47 @@
+.create-list-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  background-color: #434242;
+  color: #fff;
+  padding: 10px;
+}
+
+.create-list-container button {
+  font-size: 20px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.create-list-container .form-container .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 5px;
+}
+
+.create-list-container .form-container .form div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.create-list-container .form-container .form button {
+  font-size: 16px;
+}
+/*# sourceMappingURL=listForm.css.map */

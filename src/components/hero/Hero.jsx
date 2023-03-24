@@ -4,6 +4,7 @@ import img1 from "../../assets/img.jpeg"
 import { useEffect,useState } from 'react'
 import { getMovies } from '../../utils/getDataUtils'
 import DetailBtn from '../detail-btn/DetailBtn'
+import Plus from '../plus-btn/Plus'
 function Hero() {
   const [movie,setMovie] = useState()
     const key = import.meta.env.VITE_REACT_APP_API_KEY
@@ -30,7 +31,7 @@ function Hero() {
         <h1>{movie.title}</h1>
         <div className="hero__buttons">
             <DetailBtn data={movie}/>
-            <span><i class="fa-regular fa-star"></i></span>
+            <Plus id={movie.id}/>
         </div></>):(<h1>Loading</h1>)}
         
     </div>

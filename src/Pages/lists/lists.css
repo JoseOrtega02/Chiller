@@ -1,0 +1,47 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.list-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+  background-color: #222222;
+  border-bottom: 2px solid #22A39F;
+  color: white;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.list-container h3:nth-child(2) {
+  border-left: 1px solid #22A39F;
+  padding-left: 10px;
+}
+
+.list-container button button {
+  background-color: #22A39F;
+  border: none;
+  color: aliceblue;
+  padding: 5px;
+}
+
+.list-container button button a {
+  color: white;
+  text-decoration: none;
+}
+
+.list-container button button:hover {
+  cursor: pointer;
+  background-color: #186f6d;
+}
+
+.list-container i {
+  color: red;
+  font-size: 20px;
+}
+/*# sourceMappingURL=lists.css.map */

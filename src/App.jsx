@@ -11,6 +11,10 @@ import Details from './Pages/Details/Details'
 import Footer from './components/footer/Footer'
 import Search from './Pages/search/Search'
 import Cookies from "universal-cookie"
+import Favourites from './Pages/Favourites/Favourites'
+import Lists from './Pages/lists/Lists'
+import List from './components/list/List'
+import Watchlist from './Pages/watchlist/Watchlist'
 const key = import.meta.env.VITE_REACT_APP_API_KEY
 const cookies = new Cookies()
 
@@ -36,6 +40,11 @@ function App() {
       <Routes>
       
       <Route path='/' element={<Home/>}/>
+      <Route path='/favourites' element={<Favourites/>}/>
+      <Route path='/lists' element={<Lists/>}/> 
+      <Route path='/watchlist' element={<Watchlist/>}/> 
+      
+      <Route path='/lists/:ListId' element={<List/>}/>
       <Route path='/details' element={<Details/>}/>
       <Route path="/search" element={<Search/>}/>
     </Routes>
