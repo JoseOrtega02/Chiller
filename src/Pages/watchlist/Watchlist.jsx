@@ -2,7 +2,7 @@ import {useEffect,useState} from 'react'
 import { useLocation } from 'react-router-dom'
 import Movie from '../../components/movie/Movie'
 import useSessionId from '../../hooks/useSessionId'
-import "./Watchlist.scss"
+import "./watchlist.scss"
 const key = import.meta.env.VITE_REACT_APP_API_KEY
 function Watchlist() {
     const location = useLocation()
