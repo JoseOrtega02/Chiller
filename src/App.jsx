@@ -23,7 +23,7 @@ function App() {
   const urlParams = new URLSearchParams(location.search);
   const token = urlParams.get("request_token");
   useEffect(() => {
-    console.log(token);
+    console.log(key);
     Promise.resolve(getSessionId(key,"https://api.themoviedb.org/3/authentication/session/new",token))
     .then(res => {
         res.session_id?cookies.set("sessionId",res.session_id,{path: "/"}):(console.log(res))
