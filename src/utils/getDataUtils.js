@@ -6,7 +6,7 @@ export function getRequestToken() {
     .then(res =>{
         if (res.request_token) {
 
-            window.location.replace(`https://www.themoviedb.org/authenticate/${res.request_token}?redirect_to=${import.meta.env.VITE_REACT_APP_LOCAL_URL}`)
+            window.location.replace(`https://www.themoviedb.org/authenticate/${res.request_token}?redirect_to=${window.location.href}`)
         }
         console.log(res)
     })
